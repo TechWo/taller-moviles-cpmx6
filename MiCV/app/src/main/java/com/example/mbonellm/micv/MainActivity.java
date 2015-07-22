@@ -5,18 +5,13 @@ import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
-import android.content.Context;
-import android.os.Build;
 import android.os.Bundle;
-import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.support.v4.widget.DrawerLayout;
-import android.widget.ArrayAdapter;
-import android.widget.TextView;
 
 
 public class MainActivity extends ActionBarActivity
@@ -138,8 +133,34 @@ public class MainActivity extends ActionBarActivity
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.fragment_main, container, false);
-            return rootView;
+
+            View view = null;
+            int section = getArguments().getInt(ARG_SECTION_NUMBER);
+
+            switch (section){
+
+                case 1:
+                    view = inflater.inflate(R.layout.fragment_me, container, false);
+                    break;
+                case 2:
+                    view = inflater.inflate(R.layout.fragment_experience, container, false);
+                    break;
+                case 3:
+                    view = inflater.inflate(R.layout.fragment_education, container, false);
+                    break;
+                case 4:
+                    view = inflater.inflate(R.layout.fragment_skills, container, false);
+                    break;
+                case 5:
+                    view = inflater.inflate(R.layout.fragment_languages, container, false);
+                    break;
+                case 6:
+                    view = inflater.inflate(R.layout.fragment_certifications, container, false);
+                    break;
+
+            }
+
+            return view;
         }
 
         @Override
