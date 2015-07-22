@@ -6,7 +6,21 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context=".MainActivity$PlaceholderFragment">
 
-    <TextView android:id="@+id/section_label" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/image_me"
+        android:src="@drawable/girl"
+        android:layout_centerHorizontal="true" />
+
+
+    <TextView android:id="@+id/section_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/section_me_description"
+        android:layout_below="@+id/image_me"
+        android:layout_alignParentEnd="true"
+        android:paddingTop="20dp" />
+
 
 </RelativeLayout>

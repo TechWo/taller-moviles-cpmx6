@@ -1,9 +1,17 @@
 <resources>
     <string name="app_name">Mi CV</string>
 
-    <string name="title_section1">Section 1</string>
-    <string name="title_section2">Section 2</string>
-    <string name="title_section3">Section 3</string>
+    <string name="title_section_me">Fulanita de Tal</string>
+    <string name="title_section_experience">Experiencia</string>
+    <string name="title_section_education">Educacion</string>
+    <string name="title_section_skills">Aptitudes</string>
+    <string name="title_section_languages">Idiomas</string>
+    <string name="title_section_certifications">Certificaciones</string>
+
+
+
+    <string name="section_me_description">Chocolate croissant ice cream dessert donut marzipan lollipop. Cookie chupa chups sesame snaps cotton candy croissant macaroon fruitcake tart brownie. Muffin sweet roll pudding sugar plum chocolate bar fruitcake.</string>
+
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
