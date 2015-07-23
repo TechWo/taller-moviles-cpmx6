@@ -1,6 +1,8 @@
 package com.example.mbonellm.micv;
 
 import android.app.Activity;
+import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
@@ -12,6 +14,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.support.v4.widget.DrawerLayout;
+import android.widget.TextView;
 
 
 public class MainActivity extends ActionBarActivity
@@ -141,6 +144,51 @@ public class MainActivity extends ActionBarActivity
 
                 case 1:
                     view = inflater.inflate(R.layout.fragment_me, container, false);
+
+                    TextView linkLinkedin = (TextView)view.findViewById(R.id.textLinkedin);
+                    linkLinkedin.setOnClickListener(new View.OnClickListener(){
+                        public void onClick(View v){
+                            Intent intent = new Intent();
+                            intent.setAction(Intent.ACTION_VIEW);
+                            intent.addCategory(Intent.CATEGORY_BROWSABLE);
+                            intent.setData(Uri.parse(getString(R.string.section_me_linkedin_profile_url)));
+                            startActivity(intent);
+                        }
+                    });
+
+                    TextView linkGithub = (TextView)view.findViewById(R.id.textGithub);
+                    linkGithub.setOnClickListener(new View.OnClickListener(){
+                        public void onClick(View v){
+                            Intent intent = new Intent();
+                            intent.setAction(Intent.ACTION_VIEW);
+                            intent.addCategory(Intent.CATEGORY_BROWSABLE);
+                            intent.setData(Uri.parse(getString(R.string.section_me_github_profile_url)));
+                            startActivity(intent);
+                        }
+                    });
+
+                    TextView linkPhone = (TextView)view.findViewById(R.id.textPhone);
+                    linkPhone.setOnClickListener(new View.OnClickListener(){
+                        public void onClick(View v){
+                            Intent intent = new Intent(Intent.ACTION_CALL);
+                            intent.setData(Uri.parse("tel:" + getString(R.string.section_me_phone)));
+                            startActivity(intent);
+                        }
+                    });
+
+                    TextView linkEmail = (TextView)view.findViewById(R.id.textEmail);
+                    linkEmail.setOnClickListener(new View.OnClickListener(){
+                        public void onClick(View v){
+                            Intent intent = new Intent(Intent.ACTION_VIEW);
+
+                            intent.setType("plain/text");
+                            intent.setData(Uri.parse(getString(R.string.section_me_email)));
+                            intent.setClassName("com.google.android.gm", "com.google.android.gm.ComposeActivityGmail");
+                            startActivity(intent);
+
+                        }
+                    });
+                    
                     break;
                 case 2:
                     view = inflater.inflate(R.layout.fragment_experience, container, false);

@@ -9,14 +9,32 @@
     <string name="title_section_certifications">Certificaciones</string>
 
 
-
     <string name="section_me_description">Chocolate croissant ice cream dessert donut marzipan lollipop. Cookie chupa chups sesame snaps cotton candy croissant macaroon fruitcake tart brownie. Muffin sweet roll pudding sugar plum chocolate bar fruitcake.</string>
+
+    <string name="section_me_desc_linkedin">Linkedin Profile</string>
+    <string name="section_me_desc_github">Github Profile</string>
+    <string name="section_me_desc_phone">Phone number</string>
+
+    <string name="section_me_linkedin_profile">company/techwomenc</string>
+    <string name="section_me_linkedin_profile_url">https://www.linkedin.com/company/techwomenc</string>
+    <string name="section_me_github_profile">techWomenCommunity</string>
+    <string name="section_me_github_profile_url">https://github.com/techWomenCommunity</string>
+    <string name="section_me_email">info@techwomen.org.mx</string>
+    <string name="section_me_phone">00-00-00-00-00</string>
+
+
 
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_example">Example action</string>
-
     <string name="action_settings">Settings</string>
+
+
+
+
+
+
+
 </resources>

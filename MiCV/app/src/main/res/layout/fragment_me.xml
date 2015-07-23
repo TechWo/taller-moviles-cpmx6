@@ -1,15 +1,14 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:layout_height="wrap_content" android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context=".MainActivity$PlaceholderFragment">
-
-    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content">
 
     <ImageView
         android:layout_width="wrap_content"
@@ -26,18 +25,14 @@
         android:layout_below="@+id/image_me"
         android:layout_alignParentEnd="true"
         android:paddingTop="10dp"
-        android:paddingBottom="10dp"
-        />
+        android:paddingBottom="10dp" />
 
 
         <TableLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/section_label"
-            android:paddingLeft="@dimen/activity_horizontal_margin"
-            android:paddingRight="@dimen/activity_horizontal_margin"
-            android:paddingTop="@dimen/activity_vertical_margin"
-            android:paddingBottom="@dimen/activity_vertical_margin">
+            android:background="@drawable/container_dropshadow" >
 
             <TableRow
                 android:layout_width="fill_parent"
@@ -54,14 +49,15 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_gravity="center"
-                    android:src="@drawable/linkedin" />
+                    android:src="@drawable/linkedin"
+                    android:contentDescription="@string/section_me_desc_linkedin" />
 
                     <TextView
                         android:id="@+id/textLinkedin"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
-                        android:text="www.linkedin.com/company/techwomenc" />
+                        android:text="@string/section_me_linkedin_profile" />
             </TableRow>
 
             <TableRow
@@ -86,7 +82,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
-                    android:text="github.com/techWomenCommunity" />
+                    android:text="@string/section_me_github_profile"
+                    android:contentDescription="@string/section_me_desc_github"/>
             </TableRow>
 
             <TableRow
@@ -104,14 +101,15 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_gravity="center"
-                    android:src="@drawable/phone" />
+                    android:src="@drawable/phone"
+                    android:contentDescription="@string/section_me_desc_phone"/>
 
                 <TextView
                     android:id="@+id/textPhone"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
-                    android:text="00-00-00-00-00" />
+                    android:text="@string/section_me_phone" />
             </TableRow>
 
             <TableRow
@@ -136,13 +134,11 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
-                    android:text="info@techwomen.org.mx" />
+                    android:text="@string/section_me_email" />
             </TableRow>
 
         </TableLayout>
 
-
-    </ScrollView>
-
 </RelativeLayout>
 
+</ScrollView>
