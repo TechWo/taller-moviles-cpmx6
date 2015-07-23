@@ -23,6 +23,16 @@
     <string name="section_me_phone">00-00-00-00-00</string>
 
 
+    <string name="section_experience_job_title">PUESTO</string>
+    <string name="section_experience_company">EMPRESA</string>
+    <string name="section_experience_date_1">Enero 2015 - Presente</string>
+    <string name="section_experience_date_2">Marzo 2013 - Diciembre 2014</string>
+    <string name="section_experience_job_title_desc_1">Ingeniero de Software</string>
+    <string name="section_experience_job_title_desc_2">Desarrollador Web</string>
+    <string name="section_experience_company_desc_1">Google</string>
+    <string name="section_experience_company_desc_2">Facebook</string>
+    <string name="section_experience_description_1">Lollipop muffin lemon drops jelly-o dragée. Cheesecake lollipop ice cream pudding tootsie roll cotton candy lemon drops soufflé caramels. Cupcake bear claw topping lollipop jujubes oat cake carrot cake dragée donut. Topping tiramisu topping.</string>
+    <string name="section_experience_description_2">Candy canes fruitcake gummies cake chocolate bar. Croissant muffin pastry carrot cake dessert croissant chocolate marzipan. Caramels topping sesame snaps donut lemon drops. Dessert apple pie candy canes cookie cheesecake marshmallow cookie sugar plum.</string>
 
 
     <string name="navigation_drawer_open">Open navigation drawer</string>

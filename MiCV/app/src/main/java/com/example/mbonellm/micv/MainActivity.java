@@ -188,7 +188,7 @@ public class MainActivity extends ActionBarActivity
 
                         }
                     });
-                    
+
                     break;
                 case 2:
                     view = inflater.inflate(R.layout.fragment_experience, container, false);
