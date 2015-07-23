@@ -10,11 +10,9 @@
 
 
     <string name="section_me_description">Chocolate croissant ice cream dessert donut marzipan lollipop. Cookie chupa chups sesame snaps cotton candy croissant macaroon fruitcake tart brownie. Muffin sweet roll pudding sugar plum chocolate bar fruitcake.</string>
-
     <string name="section_me_desc_linkedin">Linkedin Profile</string>
     <string name="section_me_desc_github">Github Profile</string>
     <string name="section_me_desc_phone">Phone number</string>
-
     <string name="section_me_linkedin_profile">company/techwomenc</string>
     <string name="section_me_linkedin_profile_url">https://www.linkedin.com/company/techwomenc</string>
     <string name="section_me_github_profile">techWomenCommunity</string>
@@ -33,6 +31,13 @@
     <string name="section_experience_company_desc_2">Facebook</string>
     <string name="section_experience_description_1">Lollipop muffin lemon drops jelly-o dragée. Cheesecake lollipop ice cream pudding tootsie roll cotton candy lemon drops soufflé caramels. Cupcake bear claw topping lollipop jujubes oat cake carrot cake dragée donut. Topping tiramisu topping.</string>
     <string name="section_experience_description_2">Candy canes fruitcake gummies cake chocolate bar. Croissant muffin pastry carrot cake dessert croissant chocolate marzipan. Caramels topping sesame snaps donut lemon drops. Dessert apple pie candy canes cookie cheesecake marshmallow cookie sugar plum.</string>
+
+
+    <string name="section_education_university">Universidad del Campus Party</string>
+    <string name="section_education_title">GRADO</string>
+    <string name="section_education_title_name">Ingenieria en Informatica</string>
+    <string name="section_education_generation">GENERACION</string>
+    <string name="section_education_generation_name">2011 - 2015</string>
 
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
