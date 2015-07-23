@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Mi CV</string>
 
-    <string name="title_section_me">Fulanita de Tal</string>
+    <string name="title_section_me">Tech Women</string>
     <string name="title_section_experience">Experiencia</string>
     <string name="title_section_education">Educacion</string>
     <string name="title_section_skills">Aptitudes</string>
