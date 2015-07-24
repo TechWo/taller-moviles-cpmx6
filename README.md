@@ -1,10 +1,10 @@
-# Taller de aplicaciones moviles para el CPMX6
+# Taller de aplicaciones moviles para CPMX6
 Android app que sirve como curriculum vitae.
 
 Secciones:
 - Nombre
 - Experiencia
-- Educacion
+- Educación
 - Aptitudes
 - Certificaciones
 
