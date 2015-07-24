@@ -40,6 +40,18 @@
     <string name="section_education_generation_name">2011 - 2015</string>
 
 
+    <string name="section_skills_1">Java</string>
+    <string name="section_skills_2">PHP</string>
+    <string name="section_skills_3">C#</string>
+    <string name="section_skills_4">Android</string>
+    <string name="section_skills_5">MySQL</string>
+    <string name="section_skills_6">HTML5</string>
+    <string name="section_skills_7">Javascript</string>
+    <string name="section_skills_8">CSS</string>
+    <string name="section_skills_9">Docker</string>
+    <string name="section_skills_10">Apache Mesos</string>
+
+
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
