@@ -51,6 +51,12 @@
     <string name="section_skills_9">Docker</string>
     <string name="section_skills_10">Apache Mesos</string>
 
+    <string name="section_certification_name_1">Oracle Certified Professional Java SE Programmer</string>
+    <string name="section_certification_company_1">Oracle</string>
+    <string name="section_certification_date_1">Enero 2015 - Actualidad</string>
+    <string name="section_certification_name_2">Xamarin Certified Mobile Developer</string>
+    <string name="section_certification_company_2">Xamarin</string>
+    <string name="section_certification_date_2">Noviembre 2014 - Noviembre 2015</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
