@@ -1,4 +1,4 @@
-# Taller de aplicaciones moviles para CPMX6
+# Taller de aplicaciones móviles para CPMX6
 Android app que sirve como curriculum vitae.
 
 Secciones:
