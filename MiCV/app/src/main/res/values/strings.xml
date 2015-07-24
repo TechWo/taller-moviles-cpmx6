@@ -3,9 +3,8 @@
 
     <string name="title_section_me">Tech Women</string>
     <string name="title_section_experience">Experiencia</string>
-    <string name="title_section_education">Educacion</string>
+    <string name="title_section_education">Educación</string>
     <string name="title_section_skills">Aptitudes</string>
-    <string name="title_section_languages">Idiomas</string>
     <string name="title_section_certifications">Certificaciones</string>
 
 
@@ -35,8 +34,8 @@
 
     <string name="section_education_university">Universidad del Campus Party</string>
     <string name="section_education_title">GRADO</string>
-    <string name="section_education_title_name">Ingenieria en Informatica</string>
-    <string name="section_education_generation">GENERACION</string>
+    <string name="section_education_title_name">Ingeniería en Informática</string>
+    <string name="section_education_generation">GENERACIÓN</string>
     <string name="section_education_generation_name">2011 - 2015</string>
 
 

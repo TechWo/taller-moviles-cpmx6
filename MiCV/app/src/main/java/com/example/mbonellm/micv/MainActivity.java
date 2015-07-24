@@ -69,9 +69,6 @@ public class MainActivity extends ActionBarActivity
                 mTitle = getString(R.string.title_section_skills);
                 break;
             case 5:
-                mTitle = getString(R.string.title_section_languages);
-                break;
-            case 6:
                 mTitle = getString(R.string.title_section_certifications);
                 break;
         }
@@ -200,12 +197,8 @@ public class MainActivity extends ActionBarActivity
                     view = inflater.inflate(R.layout.fragment_skills, container, false);
                     break;
                 case 5:
-                    view = inflater.inflate(R.layout.fragment_languages, container, false);
-                    break;
-                case 6:
                     view = inflater.inflate(R.layout.fragment_certifications, container, false);
                     break;
-
             }
 
             return view;
